@@ -1,0 +1,279 @@
+@media (min-width : 768px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    /* header css */
+    .logo {
+        margin: auto;
+        padding: 15px;
+    }
+
+    .button {
+        border: none;
+        background: none;
+    }
+
+    .Header1 {
+        background-image: url(img/hero-bg.jpg);
+        background-size: cover;
+
+        padding: 50px;
+
+    }
+
+    li a {
+        font-size: small;
+    }
+
+    .navigation {
+        border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .introduction {
+        padding-left: 125px;
+        
+    }
+
+    .introhead {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .intropara {
+        font-size: 1rem;
+    }
+
+    /* header css ends */
+    /* about starts */
+    .about {
+        padding: 80px;
+    }
+
+    .about1 img {
+        height: 400px;
+        width: 500px;
+        padding-top: 40px;
+    }
+
+    .abouttitle {
+        font-weight: bolder;
+        font-size: 3rem;
+        color: black;
+    }
+
+    .aboutpara {
+        font-size: 1rem;
+        color: black;
+    }
+
+    /* about ends */
+    /* menu starts */
+    .btn-main {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+ 
+
+    }
+
+    .btn-menu {
+        outline: none !important;
+        border-top: none;
+        border-bottom: none;
+        border-color: #edf6ff;
+        color: black;
+
+
+    }
+
+    .btn-menu:active {
+        color: white;
+        background-color: red;
+    }
+
+    .btn-menu1 {
+        outline: none !important;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        border-color: #edf6ff;
+        color: black;
+
+
+    }
+
+    .btn-menu1:active {
+        color: white;
+        background-color: red;  
+    }
+
+    .btn-menu2:active {
+        color: white;
+        background-color: red;
+    }
+
+    .btn-menu2 {
+        outline: none !important;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+        border-color: #edf6ff;
+        color: black;
+
+
+    }
+
+    .coffee {
+        margin-top: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+
+    }
+
+    .coffee h4 {
+        margin-right: 495px;
+    }
+
+    .coffee p {
+        text-align: left;
+    }
+
+    .coffee span {
+        color: red;
+    }
+
+    /* menu ends */
+    /* reservation starts */
+    .Reservation-main {
+        background-image: url(img/reservation-bg.jpg);
+        background-size: cover;
+        padding: 30px;
+        background-color: rgba(17, 22, 24, 0.75);
+        background-blend-mode: multiply;
+    }
+
+    .Reservation h3 {
+        font-weight: bolder;
+        font-size: 3rem;
+        margin-top: 80px;
+    }
+
+    .Reservation p {
+        font-size: 1rem;
+    }
+
+    .form-start {
+        margin-top: 80px;
+    }
+
+    .btnres {
+        margin-left: 250px;
+        margin-bottom: 50px;
+    }
+
+    /* reservation ends */
+    /* gallery starts */
+    .img-4 {
+        margin-top: -120px !important;
+    }
+
+    .img-6 {
+        margin-top: -120px !important;
+    }
+
+    /* gallery ends */
+    /* review starts */
+    .review {
+        background-image: url(img/review-bg.jpg);
+        margin-top: 100px;
+        padding: 100px;
+        background-size: cover;
+    }
+
+    .user {
+        padding-left: 250px;
+    }
+
+    /* review ends */
+    /* blogs starts */
+
+    .card-main {
+        border: none;
+    }
+
+    .card-date {
+        background-color: black;
+        color: white;
+        font-weight: 100;
+        width: 100px;
+    }
+
+    #Comments {
+        padding-left: px;
+    }
+
+    /* blogs ends */
+    /* footer starts */
+    footer {
+        background-color: red;
+        color: white;
+        /* padding: 50px; */
+    }
+
+    /* .row{
+        color: white;
+    } */
+    .opening-details {
+        border-bottom: 1px solid white;
+        width: 300px;
+
+
+    }
+
+    .email-nl {
+
+        width: 245px;
+        height: 38px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .mail {
+        position: relative;
+
+    }
+
+    .arrow {
+        position: absolute;
+        right: 452px;
+        top: 1px;
+
+    }
+
+    .email-nl::placeholder {
+        padding: 20px;
+    }
+
+    #arrow1 {
+
+        background-color: red;
+        border-radius: 100%;
+        padding: 10px;
+    }
+
+    .news {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .Contacts {
+        margin-top: 30px;
+    }
+
+    /* footer ends */
+}

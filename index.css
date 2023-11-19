@@ -1,0 +1,200 @@
+@media (min-width : 1350px){
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    /* header css */
+    .logo {
+        margin: auto;
+        padding: 15px;
+    }
+    
+    .button {
+        border: none;
+        background: none;
+    }
+    
+    .Header1 {
+        background-image: url(img/hero-bg.jpg);
+        background-size: cover 100%;
+        
+        padding: 50px;
+    }
+    
+    li a {
+        font-size: small;
+    }
+    
+    .navigation {
+        border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .introduction {
+        padding-left: 125px;
+        width: 40%;
+    }
+    
+    .introhead {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .intropara {
+        font-size: 1rem;
+    }
+    
+    /* header css ends */
+    /* about starts */
+    .about {
+        padding: 80px;
+    }
+    
+    .about1 img {
+        height: 400px;
+        width: 500px;
+        padding-top: 40px;
+    }
+    
+    .abouttitle {
+        font-weight: bolder;
+        font-size: 3rem;
+        color: black;
+    }
+    
+    .aboutpara {
+        font-size: 1rem;
+        color: black;
+    }
+    
+    /* about ends */
+    /* menu starts */
+    
+    .coffee {
+        width: 100%;
+    
+    }
+   
+    
+    
+    .price {
+        margin-left: 340px;
+        font-size: 1rem;
+    }
+    
+    .descript {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 15px;
+    
+    }
+    
+    .coffee span {
+        color: red;
+    }
+    
+    .btn-list{
+        border-radius: 20px;
+    }
+    /* menu ends */
+    /* reservation starts */
+    .Reservation-main{
+        background-image: url(img/reservation-bg.jpg);
+        padding: 100px;
+        background-color: rgba(17,22,24,0.75);
+        background-blend-mode: multiply;
+    }
+    
+    .Reservation h3{
+        font-weight: bolder;
+        font-size: 3rem;
+        margin-top: 80px;
+    }
+    .Reservation p{
+        font-size: 1rem;
+    }
+    .form-start{
+        margin-top: 80px;
+    }
+    .btnres{
+        margin-left: 150px;
+    }
+    /* reservation ends */
+    /* gallery starts */
+    .img-4{
+        margin-top: -120px!important;
+    }
+    .img-6{
+        margin-top: -120px!important;
+    }
+    /* gallery ends */
+    /* review starts */
+    .review{
+        background-image: url(img/review-bg.jpg);
+        padding: 100px;
+        background-size: cover;
+    }
+    .user{
+        padding-left: 580px;
+    }
+    /* review ends */
+    /* blogs starts */
+    .card-main{
+        border: none;
+        display: inline-block!important;
+    }
+    .card-date{
+        background-color: black;
+        color: white;
+        font-weight: 100;
+        width: 100px;
+    }
+    #Comments{
+        padding-left: 10px;
+    }
+    /* blogs ends */
+    /* footer starts */
+    footer{
+        background-color: red;
+        padding: 50px;
+        color: white;
+    }
+    
+    .opening-details{
+        border-bottom: 1px solid white;
+        width: 300px;
+        
+    }
+    .email-nl{
+        
+        width: 288px;
+        height: 38px;
+        border-radius: 30px;
+        border: none;
+    }
+    .mail{
+        position: relative;
+        
+    }
+    .arrow{
+        position: absolute;
+        right: 70px;
+        top: 1px;
+        
+    }
+    .email-nl::placeholder{
+        padding: 20px;
+    }
+    
+    #arrow1{
+        
+        background-color: red;
+        border-radius: 100%;
+        padding: 10px;
+    }
+    
+    /* footer ends */
+}
